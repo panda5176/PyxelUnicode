@@ -47,9 +47,7 @@ class PyxelUnicode(object):
         font = ImageFont.truetype(
             self.font_path, self.original_size*self.multipler)
         # dummy image for get text_size
-        tmp = Image.new('RGB', (1, 1), (0, 0, 0))
-        tmp_d = ImageDraw.Draw(tmp)
-        width, height = tmp_d.textsize(char, font=font)
+        _, _, width, height = font.getbbox(char)
 
         # background: transparent
         img = Image.new('RGB', (width, height), (0, 0, 0))

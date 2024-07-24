@@ -1,3 +1,12 @@
+# FORK CHANGE
+- Updated version of Pillow does not support [PyxelUnicode](https://github.com/AceBee007/PyxelUnicode)
+- Debugged "AttributeError: 'ImageDraw' object has no attribute 'textsize'" error
+- Added Pillow version on requirements.txt
+- Updated version of Pyxel does not support "caption" attribute in pyxel.init()
+- Revised usage examples in README.*.md
+
+---
+
 [![Downloads](https://pepy.tech/badge/pyxelunicode)](https://pepy.tech/project/pyxelunicode)
 # PyxelUnicode
 
@@ -33,7 +42,7 @@ The examples below show you how to use it.
 import pyxel
 from pyxelunicode import PyxelUnicode
 
-pyxel.init(256, 256, caption="PyxelUnicode General Usage")
+pyxel.init(256, 256)
 pyxel.cls(0)
 
 font_path = "PATH_TO_YOUR_FONT_FILE.ttf"
@@ -64,7 +73,7 @@ If you do not know the most suitable font size, try the code below. It shows the
 import pyxel
 from pyxelunicode import PyxelUnicode
 
-pyxel.init(256, 256, caption="PyxelUnicode find font size")
+pyxel.init(256, 256)
 pyxel.cls(0)
 
 font_path = "PATH_TO_YOUR_FONT_FILE.ttf"
@@ -89,7 +98,7 @@ It may not work perfectly, and I do not know why. I welcome any kinds of imporve
 import pyxel
 from pyxelunicode import PyxelUnicode
 
-pyxel.init(256, 256, caption="PyxelUnicode General Usage")
+pyxel.init(256, 256)
 pyxel.cls(0)
 
 font_path = "PATH_TO_YOUR_FONT_FILE.ttf"

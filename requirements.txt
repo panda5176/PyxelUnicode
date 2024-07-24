@@ -1,5 +1,5 @@
-###### Requirements without Version Specifiers ######`
-Pillow
+###### Requirements with Version Specifiers ######`
+Pillow >= 10.4.0
 
 ###### Requirements with Version Specifiers ######`
 pyxel >= 1.4.0             # supported pyxel.pset()

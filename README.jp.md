@@ -33,7 +33,7 @@ pip install pyxelunicode
 import pyxel
 from pyxelunicode import PyxelUnicode
 
-pyxel.init(256, 256, caption="PyxelUnicode General Usage")
+pyxel.init(256, 256)
 pyxel.cls(0)
 
 font_path = "PATH_TO_YOUR_FONT_FILE.ttf" # ttfファイルのパス
@@ -64,7 +64,7 @@ pyxel.show()
 import pyxel
 from pyxelunicode import PyxelUnicode
 
-pyxel.init(256, 256, caption="PyxelUnicode find font size")
+pyxel.init(256, 256)
 pyxel.cls(0)
 
 font_path = "PATH_TO_YOUR_FONT_FILE.ttf"
@@ -89,7 +89,7 @@ pyxel.show()
 import pyxel
 from pyxelunicode import PyxelUnicode
 
-pyxel.init(256, 256, caption="PyxelUnicode General Usage")
+pyxel.init(256, 256)
 pyxel.cls(0)
 
 font_path = "PATH_TO_YOUR_FONT_FILE.ttf"
